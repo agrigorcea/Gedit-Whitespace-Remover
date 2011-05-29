@@ -1,0 +1,20 @@
+Gedit Whitespace Remover
+=================================
+
+Author: Alexandr Grigorcea <cahr.gr@gmail.com>
+Home:   <https://github.com/cahrgr/Gedit-Whitespace-Remover>
+
+License
+-------
+
+See the LICENSE file.
+
+Install
+-------
+Copy files whitespace-remover.py and whitespace-remover.plugin
+in  /usr/share/gedit/plugins/
+Copy file whitespace-remover.gschema.xml
+in /usr/share/glib-2.0/schemas/ and run as root (or sudo)
+$ glib-compile-schemas /usr/share/glib-2.0/schemas
+
+Activate the plugin from gedit Preferences

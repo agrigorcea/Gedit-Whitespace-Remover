@@ -1,0 +1,11 @@
+[Plugin]
+Loader=python
+Module=whitespace-remover
+IAge=3
+Name=Whitespace Remover
+Description=Removes unnecessary whitespaces upon saving
+Icon=edit-clear
+Authors=Alexandr Grigorcea <cahr.gr@gmail.com>
+Copyright=Copyright © 2011 Alexandr Grigorcea
+Website=https://github.com/cahrgr/Gedit-Whitespace-Remover
+Version=1.0

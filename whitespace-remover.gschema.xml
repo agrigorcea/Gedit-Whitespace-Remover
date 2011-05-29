@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.gedit.plugins.whitespace-remover" path="/org/gnome/gedit/plugins/whitespace-remover/" gettext-domain="gedit-plugins">
+
+    <key type="b" name="preserve-cursor">
+      <default>true</default>
+      <summary>Preserve cursor position</summary>
+      <description>Preserve cursor position.</description>
+    </key>
+
+    <key type="b" name="remove-whitespaces">
+      <default>true</default>
+      <summary>Remove trailing whitespaces</summary>
+      <description>Remove trailing whitespaces on every line.</description>
+    </key>
+
+    <key type="b" name="remove-newlines">
+      <default>true</default>
+      <summary>Remove empty lines at the end of document</summary>
+      <description>Remove empty lines at the end of document.</description>
+    </key>
+  </schema>
+</schemalist>
